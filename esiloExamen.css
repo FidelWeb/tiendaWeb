@@ -1,0 +1,127 @@
+
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+header{
+    background-color: rgb(125, 196, 11);
+    
+    margin: 0rem;
+    padding:0rem ;
+    width: 100%;
+
+
+}
+ul{
+    display: flexbox;
+    flex: unset;
+    list-style: none;
+
+
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    padding: 1rem 3rem;
+    display: inline-block;
+    color: rgb(64, 64, 7);
+}
+ul li a:hover{
+    background-color: rgba(128, 128, 0, 0.545);
+    color: darkkhaki;
+
+}
+
+
+.titulo {
+    font-size: 4rem ;
+    font-family:'Franklin Gothic Medium';
+    font-weight: 10000;/*grosor de letras*/
+    /*line-height:0.8 ;/*1:es el tamaño de la letra 2:es el doble*/
+    font-style:inherit;
+    font-variant:small-caps;
+    list-style: circle;
+    
+    border-top:1rem rgba(8, 31, 2, 0.68);
+    border-bottom: 1rem rgba(8, 31, 2, 0.68);
+    border-style:double;
+    border-left: 0ex;
+    border-right: 0ex;
+   
+   background-image: url(imagenes/deporte1.png);
+   background-position: center;
+   padding-left: 2rem;
+   height: 6rem;
+    
+    color: rgb(15, 15, 3);
+    text-shadow:-0.2rem 0.2rem 0.2rem rgba(10, 19, 1, 0.51),-0.4rem 0.4rem 0.4rem rgba(10, 19, 1, 0.51)  ;
+}
+
+aside{
+    border: 0.5rem rgba(0, 0, 0, 0.098) ;
+    border-style: inset;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin:1rem;
+    
+}
+
+
+aside img{
+    width:15rem;
+    height: 15 rem;
+    display: block;
+    margin:auto;
+    
+}
+aside b{
+    display: block;
+    padding: 1rem;
+}
+
+
+
+
+footer{
+    background-image: url(imagenes/footer.jpg);
+    
+    
+    width: 100%;
+    height: 10rem;
+    
+    background-size:contain;
+    bottom: 0rem;
+    position: absolute;
+    background-position:0rem 40rem;
+}
+.contactanos{
+    color:olive;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 45%;
+    
+    border: 1rem rgb(117, 163, 0);
+    border-style: ridge;
+    text-decoration: none;
+}
+.contactanos:hover{
+    background-color: rgb(117, 163, 0);
+    color: black;
+   
+}
+
+#contact{
+    background-image:url(imagenes/imagen1.jpg);
+    background-size: cover;
+}
+#miCarrito{
+    background-image:url(imagenes/carrito.jpg);
+    background-size: cover;
+    background-position:0rem -10rem;
+}
+#sucursales{
+    background-image:url(imagenes/imagen2.jpg);
+    background-size: cover;
+}
