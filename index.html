@@ -9,7 +9,28 @@
 </head>
 <body>
     <script>(function(a,m,o,c,r,m){a[m]={id:"653334",hash:"efd7a154f7357b6dfff54498325afcd83ced5d0860256528b1c174a05ca4861a",locale:"es",inline:false,setMeta:function(p){this.params=(this.params||[]).concat([p])}};a[o]=a[o]||function(){(a[o].q=a[o].q||[]).push(arguments)};var d=a.document,s=d.createElement('script');s.async=true;s.id=m+'_script';s.src='https://gso.kommo.com/js/button.js?1687610434';d.head&&d.head.appendChild(s)}(window,0,'crmPlugin',0,0,'crm_plugin'));</script>
-    <!-- <div> -->
+    window.crmPluginConfig = {
+    onlinechat: {
+    theme: {
+   background: 'yellow', // background
+   system_color: 'pink', // color of system texts (delivery status, date)
+   header: { // you can specify header: false, then it will not be rendered at all
+     background: 'skyblue', // the top of the chat background color 
+     color: 'black', // top text color
+   }, 
+   message: {
+     outgoing_background: 'red', // user message background 
+     outgoing_color: 'white', // user message color
+     incoming_background: 'blue', // operator response background 
+     incoming_color: 'white', // operator response color
+   }, 
+   compose: { 
+     height: 100, // minimum height in pixels (maximum 170px, cannot be changed)     
+     button_background: 'black', // submit button background
+   } 
+  }, 
+ }, 
+};<!-- <div> -->
         <header>
             <ul>
                 <li><a href="">Ofertas</a></li>
